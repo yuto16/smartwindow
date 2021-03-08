@@ -1,0 +1,68 @@
+ /* Style the video: 100% width and height to cover the entire window */
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+/* Add some content at the bottom of the video/page */
+.content {
+  position: fixed;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+
+.clockarea{
+  position: absolute;
+  font-family: sans-serif;
+  font-size: 500%;
+  color: #ffffff;
+  left: 5%;
+  top: 0%;
+}
+
+.weatherarea{
+  position: absolute;
+  font-family: sans-serif;
+  font-size: 200%;
+  color: #ffffff;
+  left: 5%;
+  top: 15%;
+}
+
+.bottomarea{
+  position: absolute;
+  font-family: sans-serif;
+  font-size: 200%;
+  color: #ffffff;
+  left: 5%;
+  bottom: 1%;
+}
+
+table {
+  table-layout: fixed;
+  width: 40%;
+}
+
+td {
+  font-family: sans-serif;
+  font-size: 200%;
+  color: #ffffff;
+}
+
+/*
+p {
+  font-family: serif;          
+  color: #fff;
+  font-size: 400%;
+  position: absolute;
+  left: 100%;
+  top: 100%;
+  z-index: 1;
+}
+ */

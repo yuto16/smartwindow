@@ -1,0 +1,40 @@
+<!-- DOCTYPE html -->
+<html lang="ja">
+
+ <head>
+ <meta charset="utf-8"/>
+  <title>sea time</title>
+  <link rel="stylesheet" type="text/css" href="main.css">
+  <script type="text/javascript" src="clock.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="weather.js" charset="UTF-8"></script>
+ </head>
+
+<body>
+<!-- 背景動画の設定 -->
+<div class="video-wrap">
+  <!-- <video controls loop autoplay muted  id="myVideo"> -->
+  <video loop autoplay muted  id="myVideo">
+  <source src="./sea3.mp4" type="video/mp4">
+  </video>
+</div>
+  
+<!-- 文字表示の設定 -->
+<div class="clockarea">
+  <p id="RealtimeClockArea">Time</p>
+</div>
+<div class="weatherarea">
+  <table id="WeatherTable" border="0">
+  <tr align="center"><td>date0</td><td>date1</td><td>date2</td></tr>
+  <tr align="center"><td><img id="img0" /></td><td><img id="img1" /></td><td><img id="img2" /></td></tr>
+  <tr align="center"><td>行1</td><td>行1列1</td><td>行1列2</td></tr>
+  <tr align="center"><td>行2</td><td>行2列1</td><td>行2列2</td></tr>
+  <tr align="center"><td>行3</td><td>行3列1</td><td>行3列2</td></tr>
+  </table>
+</div>
+<div class="bottomarea">
+<p id="publicTime">publicTime</p>
+</div>
+
+</body>
+
+</html>
