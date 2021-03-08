@@ -20,7 +20,7 @@
 .clockarea{
   position: absolute;
   font-family: sans-serif;
-  font-size: 500%;
+  font-size: 450%;
   color: #ffffff;
   left: 5%;
   top: 0%;
@@ -32,7 +32,7 @@
   font-size: 200%;
   color: #ffffff;
   left: 5%;
-  top: 15%;
+  top: 20%;
 }
 
 .bottomarea{
